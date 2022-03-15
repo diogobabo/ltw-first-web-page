@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,200');
+
+body{
+    font-family: Poppins,Lora;
+    font-size:medium;
+}
+body>header{
+    padding: 0.5em;
+    background-color: #046DD5;
+}
+body>header a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+#hamburger{
+    display: none;
+}
+body>nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: larger;
+}
+body>nav>ul a{
+    text-decoration: none;
+    color: #2A2F33;
+}
+#signup{
+    color: white;
+    text-decoration: none;
+}
+#signup :first-child{
+    padding-right: 1em;
+    border-right: 1px solid white;
+}
+#signup :last-child{
+    padding-left: 1em;
+}
+body>nav li{
+    padding : 0.5em 0;
+}
+body>nav li:first-child{
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-color: red;
+}
+body>nav li:nth-child(2){
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-color: green;
+}
+body>nav li:nth-child(3){
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-color: rgb(46, 65, 116);
+}
+body>nav li:nth-child(4){
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-color: orangered;
+}
+body>nav li:nth-child(5){
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-color: lightblue;
+}
+body>nav li:nth-child(6){
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-color: lightcoral;
+}
+#related{
+    padding: 1em;
+    background-color: #2A2F33;
+    color: white;
+}
+#related a{
+    text-decoration: none;
+    color: white;
+}
+#news >article>header a{
+    margin: 0.8em;
+    width: 15%;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-shadow: 0.2em 0.2em 0.2em #2A2F33;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+}
+#news >article>img{
+    width: 100%;
+    
+}
+
+#news >article>p{
+    padding: 0 1em;
+    
+}
+#news >article>footer{
+    padding: 0.1em 1em;
+    background-color: lightcoral;
+    padding: 0.9em;
+    font-size: small;
+    color: white;
+    
+}
+#news >article>footer a{
+    text-decoration: underline;
+    color: white;
+    
+}
+#news >article p::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+}
+footer{
+    color: white;
+    background-color: #2A2F33;
+    margin-top: 0.9em;
+    padding: 0.005em;
+}
