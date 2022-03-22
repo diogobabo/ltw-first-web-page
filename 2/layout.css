@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    width: 60em;
+    grid-template-columns: 4fr 1fr;
+    background-color: #EDEFF0;
+}
+body>header{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+#related{
+    grid-row: span 3;
+    grid-column: 2; 
+}
+body>nav ul{
+    display: flex;
+    flex-direction: row;
+    grid-row: span 1;
+    background-color: white;
+    
+}
+#signup{
+    float: right;
+}
+body>nav ul li{
+    flex-grow: 1;
+}
+#news>article{
+    margin-top: 1em;
+    grid-row: span 1;
+    background-color: white;
+}
+footer{
+    grid-row: 4;
+}
